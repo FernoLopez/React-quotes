@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.card {
+  background-image:url(https://img.freepik.com/vector-gratis/fondo-caida-hojas-otono-lado_78072-542.jpg);
+}
+
+.card-style {
+  box-shadow: 1px 1px 5px 0 #000a00;
+}
+
+.quote-style{
+  box-shadow: 1px 1px 5px 0 #000a00;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.card {
+  background-color: whitesmoke;
+  width: min(400px, 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btn-style {
+  display: block;
+  font-size: 20px;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color:whitesmoke;
+  position: relative;
+  left: 95%;
+  transform:translateX(-100%) translateY(-30%);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a00;
+  transition: box-shadow 200 ms ease;
+}
+
+.btn-style:active {
+  box-shadow: 0 0 0 0 #000a00;
+  transition: box-shadow 200 ms ease;
+}
+
+svg {
+  font-size: 40px;
+  transform: translateX(-50%) translateY(-100%);
+}
+
